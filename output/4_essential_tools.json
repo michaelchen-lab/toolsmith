@@ -1,44 +1,39 @@
 {
     "tools": [
         {
-            "name": "Cell Ranger",
+            "name": "MACS2",
             "type_of_tool": "software",
-            "function": "Single-cell ATAC-seq data processing: peak calling and generation of a peak x cell matrix\n\nThis task involves processing single-cell ATAC-seq data, starting with aligning reads, filtering, and generating a peak x cell matrix. The task uses software tools like Cell Ranger for initial steps, followed by ArchR for quality control, peak calling, and matrix creation. The goal is to identify regions of open chromatin in each cell."
+            "function": "snATAC-seq Peak Calling\n\nIdentify regions of open chromatin from snATAC-seq data by calling peaks using MACS2 (Model-based Analysis of ChIP-Seq). The input is aligned reads, and the output consists of genomic coordinates for called peaks that represent accessible chromatin regions."
         },
         {
-            "name": "ArchR",
+            "name": "Signac",
             "type_of_tool": "software",
-            "function": "Single-cell ATAC-seq data processing: peak calling and generation of a peak x cell matrix\n\nThis task involves processing single-cell ATAC-seq data, starting with aligning reads, filtering, and generating a peak x cell matrix. The task uses software tools like Cell Ranger for initial steps, followed by ArchR for quality control, peak calling, and matrix creation. The goal is to identify regions of open chromatin in each cell."
+            "function": "snATAC-seq Quality Control, Filtering, Normalization, and Dimensionality Reduction\n\nApply quality control metrics to snATAC-seq data to filter out low-quality cells, then normalize data and reduce dimensionality. The input is the raw snATAC-seq data, and the output will be a filtered, normalized, and dimensionally-reduced dataset."
         },
         {
             "name": "Seurat",
             "type_of_tool": "software",
-            "function": "Single-cell RNA-seq and ATAC-seq data processing and quality control with Seurat and ArchR\n\nThis task involves processing single-cell RNA sequencing (scRNA-seq) and single-cell ATAC sequencing (scATAC-seq) data to ensure data quality. This includes filtering cells based on mitochondrial content, ribosomal gene content, and number of unique genes (scRNA-seq) and identifying doublets.  The remaining cells are normalized and clustered to identify various cell populations. Pseudotime trajectory analysis is performed to assess changes in gene expression across a time course.  The goal is to identify potential non-transcriptional regulation."
+            "function": "scRNA-seq Data Preprocessing and Analysis\n\nPerform data normalization, dimensionality reduction, clustering, and differential expression analysis. The inputs are raw scRNA-seq gene expression data, and the outputs are processed data and analysis results."
         },
         {
-            "name": "Epiregulon",
+            "name": "pySCENIC",
             "type_of_tool": "software",
-            "function": "Construction of Gene Regulatory Networks (GRNs) using Epiregulon: inferring TF activity from paired scATAC-seq and scRNA-seq data\n\nThis is the core task of the paper, where GRNs are constructed. This involves using the paired RNA-seq and ATAC-seq data to infer the activity of transcriptional factors (TFs). The method utilizes the co-occurrence of TF mRNA expression and chromatin accessibility at TF binding sites to predict TF activity."
+            "function": "Gene Regulatory Network (GRN) Analysis\n\nInfers gene regulatory networks (GRNs) to identify TF-target gene interactions and determine the regulons active in each cell type. The pySCENIC pipeline is used for the various steps."
         },
         {
-            "name": "MACS2",
+            "name": "ChIPseeker",
             "type_of_tool": "software",
-            "function": "ATAC-seq Peak Calling and Peak Annotation with ArchR\n\nThis involves processing scATAC-seq data using ArchR. The pipeline includes doublet analysis, latent semantic indexing, clustering, and gene scoring, integration of the scATAC-seq data with the associated scRNA-seq data and peak calling. Peak accessibility correlated with gene expression are assessed."
+            "function": "snATAC-seq peak annotation\n\nAnnotate identified peaks with genomic features - e.g. promoters, or enhancers."
         },
         {
-            "name": "Monocle 3",
+            "name": "scRNA-seq data analysis",
             "type_of_tool": "software",
-            "function": "Pseudotime Trajectory Analysis with Monocle 3\n\nConstructing pseudotime trajectories from matched scRNA-seq and scATAC-seq data to analyze gene expression and chromatin accessibility changes over time. This includes defining the pseudotime, and smoothing scATAC-seq accessibility scores."
+            "function": "Cell Type Annotation\n\nLabel cells in snRNA-seq experiments with reference to known markers from curated literature or databases."
         },
         {
-            "name": "chromVAR cisBP database",
-            "type_of_tool": "database",
-            "function": "Transcription Factor Motif Analysis and Scoring with GenomicRanges package\n\nThe task involves scoring transcription factors in relation to open chromatin regions using the ArchR-provided summit scores with the GenomicRanges package. The overall goal is to rank the transcription factors in a given peak."
-        },
-        {
-            "name": "GenomicRanges package",
+            "name": "Monocle2",
             "type_of_tool": "software",
-            "function": "Transcription Factor Motif Analysis and Scoring with GenomicRanges package\n\nThe task involves scoring transcription factors in relation to open chromatin regions using the ArchR-provided summit scores with the GenomicRanges package. The overall goal is to rank the transcription factors in a given peak."
+            "function": "Pseudotime Trajectory Analysis\n\nPerform pseudotime trajectory analysis to study cell developmental trajectories and identify DEGs. It applies dimensionality reduction as well as cell ordering to generate trajectories. Visualization is used as well."
         }
     ]
 }
