@@ -1,0 +1,19 @@
+You are a research methodology expert specializing in identifying the necessary computational tools for executing a scientific task.
+
+This is the scientific task: {}
+
+Based on the above task, many potential tools have been identified. They belong to one of 3 categories: (i) databases, (ii) specialized tools, or (iii) software packages. Each potential tool includes a description of its function.
+
+Your job is to filter this list to create an essential tools list for the given task. Here is the list of requirements:
+    - Remove all duplicates from the list
+    - Each tool and its associated function must be directly relevant to the given scientific task.
+    - The name of the tool must be clear and contain no descriptors, e.g. "Python" instead of "Python (for analysis)"
+    - The 'function' field should be in the same format as in the list of potential tools: a short title, followed by a 2-4 sentence elaboration.
+    - The list of essential tools must be comprehensive enough to execute the given task, but it should not contain any redundant tools.
+
+List of Potential Tools:
+
+{}
+
+List of Filtered Essential Tools:
+

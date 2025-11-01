@@ -1,0 +1,558 @@
+[
+    {
+        "position": 1,
+        "title": "Biomni: A general-purpose biomedical ai agent",
+        "result_id": "6_FB5prrs88J",
+        "type": "Html",
+        "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12157518/",
+        "snippet": "\u2026 In its final gene regulatory network (GRN) analysis (Figure 3h\u2026 The dataset includes snRNA-seq and snATAC-seq data from \u2026 programs underlying skeletal development. Following a \u2026",
+        "publication_info": {
+            "summary": "K Huang, S Zhang, H Wang, Y Qu, Y Lu, Y Roohani\u2026 - biorxiv, 2025 - pmc.ncbi.nlm.nih.gov",
+            "authors": [
+                {
+                    "name": "K Huang",
+                    "link": "https://scholar.google.com/citations?user=ogEXTOgAAAAJ&hl=en&num=5&oi=sra",
+                    "author_id": "ogEXTOgAAAAJ",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=ogEXTOgAAAAJ&engine=google_scholar_author&hl=en"
+                },
+                {
+                    "name": "S Zhang"
+                },
+                {
+                    "name": "H Wang",
+                    "link": "https://scholar.google.com/citations?user=Yu_0vEEAAAAJ&hl=en&num=5&oi=sra",
+                    "author_id": "Yu_0vEEAAAAJ",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=Yu_0vEEAAAAJ&engine=google_scholar_author&hl=en"
+                },
+                {
+                    "name": "Y Qu",
+                    "link": "https://scholar.google.com/citations?user=lokDwxEAAAAJ&hl=en&num=5&oi=sra",
+                    "author_id": "lokDwxEAAAAJ",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=lokDwxEAAAAJ&engine=google_scholar_author&hl=en"
+                },
+                {
+                    "name": "Y Lu",
+                    "link": "https://scholar.google.com/citations?user=jKOmKzEAAAAJ&hl=en&num=5&oi=sra",
+                    "author_id": "jKOmKzEAAAAJ",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=jKOmKzEAAAAJ&engine=google_scholar_author&hl=en"
+                },
+                {
+                    "name": "Y Roohani",
+                    "link": "https://scholar.google.com/citations?user=8EgCxIYAAAAJ&hl=en&num=5&oi=sra",
+                    "author_id": "8EgCxIYAAAAJ",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=8EgCxIYAAAAJ&engine=google_scholar_author&hl=en"
+                }
+            ]
+        },
+        "resources": [
+            {
+                "title": "nih.gov",
+                "file_format": "HTML",
+                "link": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12157518/"
+            }
+        ],
+        "inline_links": {
+            "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=6_FB5prrs88J",
+            "html_version": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12157518/",
+            "cited_by": {
+                "total": 27,
+                "link": "https://scholar.google.com/scholar?cites=14966565037202862571&as_sdt=2005&sciodt=0,5&hl=en&num=5",
+                "cites_id": "14966565037202862571",
+                "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=14966565037202862571&engine=google_scholar&hl=en&num=5"
+            },
+            "related_pages_link": "https://scholar.google.com/scholar?q=related:6_FB5prrs88J:scholar.google.com/&scioq=%22gene+regulatory+network%22+pySCENIC+snATAC+%22skeletal+development%22&hl=en&num=5&as_sdt=0,5",
+            "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=5&q=related%3A6_FB5prrs88J%3Ascholar.google.com%2F",
+            "versions": {
+                "total": 4,
+                "link": "https://scholar.google.com/scholar?cluster=14966565037202862571&hl=en&num=5&as_sdt=0,5",
+                "cluster_id": "14966565037202862571",
+                "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&cluster=14966565037202862571&engine=google_scholar&hl=en&num=5"
+            }
+        }
+    },
+    {
+        "position": 1,
+        "title": "Inferring transcription factor regulatory networks from single-cell ATAC-seq data based on graph neural networks",
+        "result_id": "BSa3pL4nhskJ",
+        "link": "https://www.nature.com/articles/s42256-022-00469-5",
+        "snippet": "\u2026 Typically, methods with very different assumptions are difficult to compare objectively, as the scATAC-seq data and scRNA-seq data actually provide different perspectives for GRN. For \u2026",
+        "publication_info": {
+            "summary": "H Li, Y Sun, H Hong, X Huang, H Tao\u2026 - Nature Machine \u2026, 2022 - nature.com",
+            "authors": [
+                {
+                    "name": "H Li"
+                },
+                {
+                    "name": "Y Sun"
+                },
+                {
+                    "name": "H Hong"
+                },
+                {
+                    "name": "X Huang"
+                },
+                {
+                    "name": "H Tao"
+                }
+            ]
+        },
+        "resources": [
+            {
+                "title": "researchgate.net",
+                "file_format": "PDF",
+                "link": "https://www.researchgate.net/profile/Hebing-Chen/publication/359881021_Inferring_transcription_factor_regulatory_networks_from_single-cell_ATAC-seq_data_based_on_graph_neural_networks/links/625d4e804173a21a0d1bc374/Inferring-transcription-factor-regulatory-networks-from-single-cell-ATAC-seq-data-based-on-graph-neural-networks.pdf?_sg%5B0%5D=started_experiment_milestone&_sg%5B1%5D=started_experiment_milestone&origin=journalDetail&_rtd=e30%3D"
+            }
+        ],
+        "inline_links": {
+            "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=BSa3pL4nhskJ",
+            "cited_by": {
+                "total": 60,
+                "link": "https://scholar.google.com/scholar?cites=14521337748263478789&as_sdt=5,33&sciodt=0,33&hl=en&num=5",
+                "cites_id": "14521337748263478789",
+                "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=5%2C33&cites=14521337748263478789&engine=google_scholar&hl=en&num=5"
+            },
+            "related_pages_link": "https://scholar.google.com/scholar?q=related:BSa3pL4nhskJ:scholar.google.com/&scioq=%22transcription+factor%22+%22single-cell+ATAC-seq%22+GRN&hl=en&num=5&as_sdt=0,33",
+            "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C33&engine=google_scholar&hl=en&num=5&q=related%3ABSa3pL4nhskJ%3Ascholar.google.com%2F",
+            "versions": {
+                "total": 4,
+                "link": "https://scholar.google.com/scholar?cluster=14521337748263478789&hl=en&num=5&as_sdt=0,33",
+                "cluster_id": "14521337748263478789",
+                "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C33&cluster=14521337748263478789&engine=google_scholar&hl=en&num=5"
+            }
+        }
+    },
+    {
+        "position": 2,
+        "title": "A single-cell multimodal view on gene regulatory network inference from transcriptomics and chromatin accessibility data",
+        "result_id": "LwIX-EkhH9sJ",
+        "link": "https://academic.oup.com/bib/article-abstract/25/5/bbae382/7745032",
+        "snippet": "\u2026 on the same cells has lifted the field of GRN inference to the next stage. Combinations of (\u2026 correlation of transcription factor and target gene expression, with enhancer GRNs (eGRNs) \u2026",
+        "publication_info": {
+            "summary": "JU Loers, V Vermeirssen - Briefings in Bioinformatics, 2024 - academic.oup.com",
+            "authors": [
+                {
+                    "name": "JU Loers",
+                    "link": "https://scholar.google.com/citations?user=hR4RsO0AAAAJ&hl=en&num=5&oi=sra",
+                    "author_id": "hR4RsO0AAAAJ",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=hR4RsO0AAAAJ&engine=google_scholar_author&hl=en"
+                },
+                {
+                    "name": "V Vermeirssen",
+                    "link": "https://scholar.google.com/citations?user=5qyCNSkAAAAJ&hl=en&num=5&oi=sra",
+                    "author_id": "5qyCNSkAAAAJ",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=5qyCNSkAAAAJ&engine=google_scholar_author&hl=en"
+                }
+            ]
+        },
+        "resources": [
+            {
+                "title": "oup.com",
+                "file_format": "PDF",
+                "link": "https://academic.oup.com/bib/article-pdf/25/5/bbae382/58963023/bbae382.pdf"
+            }
+        ],
+        "inline_links": {
+            "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=LwIX-EkhH9sJ",
+            "cited_by": {
+                "total": 11,
+                "link": "https://scholar.google.com/scholar?cites=15789375420162834991&as_sdt=5,33&sciodt=0,33&hl=en&num=5",
+                "cites_id": "15789375420162834991",
+                "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=5%2C33&cites=15789375420162834991&engine=google_scholar&hl=en&num=5"
+            },
+            "related_pages_link": "https://scholar.google.com/scholar?q=related:LwIX-EkhH9sJ:scholar.google.com/&scioq=%22transcription+factor%22+%22single-cell+ATAC-seq%22+GRN&hl=en&num=5&as_sdt=0,33",
+            "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C33&engine=google_scholar&hl=en&num=5&q=related%3ALwIX-EkhH9sJ%3Ascholar.google.com%2F",
+            "versions": {
+                "total": 9,
+                "link": "https://scholar.google.com/scholar?cluster=15789375420162834991&hl=en&num=5&as_sdt=0,33",
+                "cluster_id": "15789375420162834991",
+                "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C33&cluster=15789375420162834991&engine=google_scholar&hl=en&num=5"
+            }
+        }
+    },
+    {
+        "position": 3,
+        "title": "Epiregulon: Single-cell transcription factor activity inference to predict drug response and drivers of cell states",
+        "result_id": "7x-Df6Uz7_UJ",
+        "link": "https://www.nature.com/articles/s41467-025-62252-5",
+        "snippet": "\u2026 Gene regulatory networks (GRNs) can evaluate pharmacological agents and identify drivers \u2026 We present Epiregulon, a method that constructs GRNs from single-cell ATAC-seq and RNA\u2026",
+        "publication_info": {
+            "summary": "T W\u0142odarczyk, A Lun, D Wu, M Shi, X Ye\u2026 - Nature \u2026, 2025 - nature.com",
+            "authors": [
+                {
+                    "name": "T W\u0142odarczyk",
+                    "link": "https://scholar.google.com/citations?user=ZWw4TQcAAAAJ&hl=en&num=5&oi=sra",
+                    "author_id": "ZWw4TQcAAAAJ",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=ZWw4TQcAAAAJ&engine=google_scholar_author&hl=en"
+                },
+                {
+                    "name": "A Lun",
+                    "link": "https://scholar.google.com/citations?user=usux2yUAAAAJ&hl=en&num=5&oi=sra",
+                    "author_id": "usux2yUAAAAJ",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=usux2yUAAAAJ&engine=google_scholar_author&hl=en"
+                },
+                {
+                    "name": "D Wu",
+                    "link": "https://scholar.google.com/citations?user=QfYTe2EAAAAJ&hl=en&num=5&oi=sra",
+                    "author_id": "QfYTe2EAAAAJ",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=QfYTe2EAAAAJ&engine=google_scholar_author&hl=en"
+                },
+                {
+                    "name": "M Shi"
+                },
+                {
+                    "name": "X Ye"
+                }
+            ]
+        },
+        "resources": [
+            {
+                "title": "nature.com",
+                "file_format": "PDF",
+                "link": "https://www.nature.com/articles/s41467-025-62252-5.pdf"
+            }
+        ],
+        "inline_links": {
+            "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=7x-Df6Uz7_UJ",
+            "related_pages_link": "https://scholar.google.com/scholar?q=related:7x-Df6Uz7_UJ:scholar.google.com/&scioq=%22transcription+factor%22+%22single-cell+ATAC-seq%22+GRN&hl=en&num=5&as_sdt=0,33",
+            "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C33&engine=google_scholar&hl=en&num=5&q=related%3A7x-Df6Uz7_UJ%3Ascholar.google.com%2F",
+            "versions": {
+                "total": 8,
+                "link": "https://scholar.google.com/scholar?cluster=17721439844628111343&hl=en&num=5&as_sdt=0,33",
+                "cluster_id": "17721439844628111343",
+                "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C33&cluster=17721439844628111343&engine=google_scholar&hl=en&num=5"
+            }
+        }
+    },
+    {
+        "position": 4,
+        "title": "DETECTION OF NON-TRANSCRIPTIONALLY MEDIATED CHANGES IN TRANSCRIPTION FACTOR ACTIVITY USING MULTIOMIC SINGLE-CELL DATA",
+        "result_id": "GNboKgrVo3MJ",
+        "type": "Pdf",
+        "link": "https://jscholarship.library.jhu.edu/bitstream/handle/1774.2/68031/CHU-THESIS-2022.pdf?sequence=1",
+        "snippet": "\u2026 matched single-cell ATAC-seq and RNA-seq data from embryonic mouse heart tissue. \u2026 , single-cell ATAC-seq (scATAC-seq) is beginning to be used to enhance scRNA-seq based GRN \u2026",
+        "publication_info": {
+            "summary": "T Chu - 2022 - jscholarship.library.jhu.edu",
+            "authors": [
+                {
+                    "name": "T Chu"
+                }
+            ]
+        },
+        "resources": [
+            {
+                "title": "jhu.edu",
+                "file_format": "PDF",
+                "link": "https://jscholarship.library.jhu.edu/bitstream/handle/1774.2/68031/CHU-THESIS-2022.pdf?sequence=1"
+            }
+        ],
+        "inline_links": {
+            "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=GNboKgrVo3MJ",
+            "related_pages_link": "https://scholar.google.com/scholar?q=related:GNboKgrVo3MJ:scholar.google.com/&scioq=%22transcription+factor%22+%22single-cell+ATAC-seq%22+GRN&hl=en&num=5&as_sdt=0,33",
+            "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C33&engine=google_scholar&hl=en&num=5&q=related%3AGNboKgrVo3MJ%3Ascholar.google.com%2F",
+            "versions": {
+                "total": 2,
+                "link": "https://scholar.google.com/scholar?cluster=8332737975211841048&hl=en&num=5&as_sdt=0,33",
+                "cluster_id": "8332737975211841048",
+                "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C33&cluster=8332737975211841048&engine=google_scholar&hl=en&num=5"
+            },
+            "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:GNboKgrVo3MJ:scholar.google.com/+%22transcription+factor%22+%22single-cell+ATAC-seq%22+GRN&hl=en&num=5&as_sdt=0,33"
+        }
+    },
+    {
+        "position": 5,
+        "title": "Single Cell ATAC Sequencing Data Analysis Predicts Gene Regulatory Dynamics of",
+        "result_id": "0YTYlkM8v40J",
+        "type": "Pdf",
+        "link": "https://helda.helsinki.fi/bitstreams/8d19148e-4c66-4726-933f-a4340798eef8/download",
+        "snippet": "\u2026 The single cell ATAC-seq (\u2026 transcription factor binding in, eg, genomic regions that regulate expression of genes. In this thesis, the modelling was performed through transcription factor \u2026",
+        "publication_info": {
+            "summary": "L Virtanen - 2024 - helda.helsinki.fi",
+            "authors": [
+                {
+                    "name": "L Virtanen"
+                }
+            ]
+        },
+        "resources": [
+            {
+                "title": "helsinki.fi",
+                "file_format": "PDF",
+                "link": "https://helda.helsinki.fi/bitstreams/8d19148e-4c66-4726-933f-a4340798eef8/download"
+            }
+        ],
+        "inline_links": {
+            "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=0YTYlkM8v40J",
+            "related_pages_link": "https://scholar.google.com/scholar?q=related:0YTYlkM8v40J:scholar.google.com/&scioq=%22transcription+factor%22+%22single-cell+ATAC-seq%22+GRN&hl=en&num=5&as_sdt=0,33",
+            "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C33&engine=google_scholar&hl=en&num=5&q=related%3A0YTYlkM8v40J%3Ascholar.google.com%2F",
+            "versions": {
+                "total": 2,
+                "link": "https://scholar.google.com/scholar?cluster=10213948740890821841&hl=en&num=5&as_sdt=0,33",
+                "cluster_id": "10213948740890821841",
+                "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C33&cluster=10213948740890821841&engine=google_scholar&hl=en&num=5"
+            },
+            "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:0YTYlkM8v40J:scholar.google.com/+%22transcription+factor%22+%22single-cell+ATAC-seq%22+GRN&hl=en&num=5&as_sdt=0,33"
+        }
+    },
+    {
+        "position": 1,
+        "title": "Integration of single-cell transcriptome and chromatin accessibility of early gonads development among goats, pigs, macaques, and humans",
+        "result_id": "JOL7_IeKZvsJ",
+        "link": "https://www.cell.com/cell-reports/fulltext/S2211-1247(22)01452-8",
+        "snippet": "\u2026 To explore TFs that may contribute to the PGC development in different species, we performed analysis using pySCENIC (v.0.11.2) (Table S2). Regulons that are known to be involved \u2026",
+        "publication_info": {
+            "summary": "M Chen, X Long, F Hao, J Kang, N Wang, Y Wang\u2026 - Cell Reports, 2022 - cell.com",
+            "authors": [
+                {
+                    "name": "M Chen"
+                },
+                {
+                    "name": "X Long",
+                    "link": "https://scholar.google.com/citations?user=PgD19N8AAAAJ&hl=en&num=5&oi=sra",
+                    "author_id": "PgD19N8AAAAJ",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=PgD19N8AAAAJ&engine=google_scholar_author&hl=en"
+                },
+                {
+                    "name": "F Hao"
+                },
+                {
+                    "name": "J Kang"
+                },
+                {
+                    "name": "N Wang"
+                },
+                {
+                    "name": "Y Wang"
+                }
+            ]
+        },
+        "resources": [
+            {
+                "title": "cell.com",
+                "file_format": "PDF",
+                "link": "https://www.cell.com/cell-reports/pdfExtended/S2211-1247(22)01452-8"
+            },
+            {
+                "title": "Full View",
+                "link": "https://scholar.google.com/scholar?output=instlink&q=info:JOL7_IeKZvsJ:scholar.google.com/&hl=en&num=5&as_sdt=0,5&scillfp=17887813186963278331&oi=lle"
+            }
+        ],
+        "inline_links": {
+            "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=JOL7_IeKZvsJ",
+            "cited_by": {
+                "total": 22,
+                "link": "https://scholar.google.com/scholar?cites=18115318867813982756&as_sdt=2005&sciodt=0,5&hl=en&num=5",
+                "cites_id": "18115318867813982756",
+                "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=18115318867813982756&engine=google_scholar&hl=en&num=5"
+            },
+            "related_pages_link": "https://scholar.google.com/scholar?q=related:JOL7_IeKZvsJ:scholar.google.com/&scioq=pySCENIC+%22chromatin+accessibility%22+%22developmental+biology%22&hl=en&num=5&as_sdt=0,5",
+            "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=5&q=related%3AJOL7_IeKZvsJ%3Ascholar.google.com%2F",
+            "versions": {
+                "total": 4,
+                "link": "https://scholar.google.com/scholar?cluster=18115318867813982756&hl=en&num=5&as_sdt=0,5",
+                "cluster_id": "18115318867813982756",
+                "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&cluster=18115318867813982756&engine=google_scholar&hl=en&num=5"
+            }
+        }
+    },
+    {
+        "position": 2,
+        "title": "Joint profiling of gene expression and chromatin accessibility during amphioxus development at single-cell resolution",
+        "result_id": "MEbwoWY-gjQJ",
+        "link": "https://www.cell.com/cell-reports/fulltext/S2211-1247(22)00765-3",
+        "snippet": "\u2026 The origin of vertebrates has been a central topic for centuries in the field of evolutionary and developmental biology. Cephalochordates (commonly called amphioxus or lancelets) and \u2026",
+        "publication_info": {
+            "summary": "P Ma, X Liu, Z Xu, H Liu, X Ding, Z Huang, C Shi\u2026 - Cell Reports, 2022 - cell.com",
+            "authors": [
+                {
+                    "name": "P Ma"
+                },
+                {
+                    "name": "X Liu",
+                    "link": "https://scholar.google.com/citations?user=OHVyKRwAAAAJ&hl=en&num=5&oi=sra",
+                    "author_id": "OHVyKRwAAAAJ",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=OHVyKRwAAAAJ&engine=google_scholar_author&hl=en"
+                },
+                {
+                    "name": "Z Xu",
+                    "link": "https://scholar.google.com/citations?user=xb2Vc8MAAAAJ&hl=en&num=5&oi=sra",
+                    "author_id": "xb2Vc8MAAAAJ",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=xb2Vc8MAAAAJ&engine=google_scholar_author&hl=en"
+                },
+                {
+                    "name": "H Liu"
+                },
+                {
+                    "name": "X Ding"
+                },
+                {
+                    "name": "Z Huang"
+                },
+                {
+                    "name": "C Shi"
+                }
+            ]
+        },
+        "resources": [
+            {
+                "title": "cell.com",
+                "file_format": "PDF",
+                "link": "https://www.cell.com/cell-reports/pdfExtended/S2211-1247(22)00765-3"
+            }
+        ],
+        "inline_links": {
+            "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=MEbwoWY-gjQJ",
+            "cited_by": {
+                "total": 23,
+                "link": "https://scholar.google.com/scholar?cites=3783655247469102640&as_sdt=2005&sciodt=0,5&hl=en&num=5",
+                "cites_id": "3783655247469102640",
+                "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=3783655247469102640&engine=google_scholar&hl=en&num=5"
+            },
+            "related_pages_link": "https://scholar.google.com/scholar?q=related:MEbwoWY-gjQJ:scholar.google.com/&scioq=pySCENIC+%22chromatin+accessibility%22+%22developmental+biology%22&hl=en&num=5&as_sdt=0,5",
+            "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=5&q=related%3AMEbwoWY-gjQJ%3Ascholar.google.com%2F",
+            "versions": {
+                "total": 4,
+                "link": "https://scholar.google.com/scholar?cluster=3783655247469102640&hl=en&num=5&as_sdt=0,5",
+                "cluster_id": "3783655247469102640",
+                "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&cluster=3783655247469102640&engine=google_scholar&hl=en&num=5"
+            }
+        }
+    },
+    {
+        "position": 3,
+        "title": "Dynamics of 3D chromatin landscapes during sex determination",
+        "result_id": "gkaPbFGmDKwJ",
+        "type": "Book",
+        "link": "https://search.proquest.com/openview/2b6864f01a59d249a1092b5361fc3d9b/1?pq-origsite=gscholar&cbl=2026366&diss=y",
+        "snippet": "\u2026 Primero, gracias por la paciencia que has tenido todos estos an\u0303os, por ensen\u0303arme la mayor\u0301\u0131a de cosas que se de python, R (y pyscenic) y dejarme copiar tus co\u0301digos. Pero sobre todo \u2026",
+        "publication_info": {
+            "summary": "IM G\u00f3mez-Argent\u00e9 - 2024 - search.proquest.com",
+            "authors": [
+                {
+                    "name": "IM G\u00f3mez-Argent\u00e9"
+                }
+            ]
+        },
+        "inline_links": {
+            "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=gkaPbFGmDKwJ",
+            "related_pages_link": "https://scholar.google.com/scholar?q=related:gkaPbFGmDKwJ:scholar.google.com/&scioq=pySCENIC+%22chromatin+accessibility%22+%22developmental+biology%22&hl=en&num=5&as_sdt=0,5",
+            "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=5&q=related%3AgkaPbFGmDKwJ%3Ascholar.google.com%2F",
+            "versions": {
+                "total": 2,
+                "link": "https://scholar.google.com/scholar?cluster=12397466742888023682&hl=en&num=5&as_sdt=0,5",
+                "cluster_id": "12397466742888023682",
+                "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&cluster=12397466742888023682&engine=google_scholar&hl=en&num=5"
+            }
+        }
+    },
+    {
+        "position": 4,
+        "title": "Mechano-osmotic signals control chromatin state and fate transitions in pluripotent stem cells",
+        "result_id": "x5T-K9hXiEgJ",
+        "link": "https://www.nature.com/articles/s41556-025-01767-x",
+        "snippet": "\u2026 genome-wide chromatin accessibility and transcription (single-\u2026 , we detected changes in chromatin accessibility and gene \u2026 were inferred using SCENIC+ 50 (pyscenic 0.11.2) following \u2026",
+        "publication_info": {
+            "summary": "KP McCreery, A Stubb, R Stephens, NA Fursova\u2026 - Nature Cell \u2026, 2025 - nature.com",
+            "authors": [
+                {
+                    "name": "KP McCreery",
+                    "link": "https://scholar.google.com/citations?user=rhsL3jQAAAAJ&hl=en&num=5&oi=sra",
+                    "author_id": "rhsL3jQAAAAJ",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=rhsL3jQAAAAJ&engine=google_scholar_author&hl=en"
+                },
+                {
+                    "name": "A Stubb",
+                    "link": "https://scholar.google.com/citations?user=Vbm4UQUAAAAJ&hl=en&num=5&oi=sra",
+                    "author_id": "Vbm4UQUAAAAJ",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=Vbm4UQUAAAAJ&engine=google_scholar_author&hl=en"
+                },
+                {
+                    "name": "R Stephens"
+                },
+                {
+                    "name": "NA Fursova",
+                    "link": "https://scholar.google.com/citations?user=ZPTverQAAAAJ&hl=en&num=5&oi=sra",
+                    "author_id": "ZPTverQAAAAJ",
+                    "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=ZPTverQAAAAJ&engine=google_scholar_author&hl=en"
+                }
+            ]
+        },
+        "resources": [
+            {
+                "title": "nature.com",
+                "file_format": "PDF",
+                "link": "https://www.nature.com/articles/s41556-025-01767-x.pdf"
+            }
+        ],
+        "inline_links": {
+            "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=x5T-K9hXiEgJ",
+            "cited_by": {
+                "total": 10,
+                "link": "https://scholar.google.com/scholar?cites=5226523953526117575&as_sdt=2005&sciodt=0,5&hl=en&num=5",
+                "cites_id": "5226523953526117575",
+                "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=5226523953526117575&engine=google_scholar&hl=en&num=5"
+            },
+            "related_pages_link": "https://scholar.google.com/scholar?q=related:x5T-K9hXiEgJ:scholar.google.com/&scioq=pySCENIC+%22chromatin+accessibility%22+%22developmental+biology%22&hl=en&num=5&as_sdt=0,5",
+            "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=5&q=related%3Ax5T-K9hXiEgJ%3Ascholar.google.com%2F",
+            "versions": {
+                "total": 3,
+                "link": "https://scholar.google.com/scholar?cluster=5226523953526117575&hl=en&num=5&as_sdt=0,5",
+                "cluster_id": "5226523953526117575",
+                "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&cluster=5226523953526117575&engine=google_scholar&hl=en&num=5"
+            }
+        }
+    },
+    {
+        "position": 5,
+        "title": "Transcriptional and open chromatin analysis of bovine skeletal muscle development by single\u2010cell sequencing",
+        "result_id": "AgG2uUh33yUJ",
+        "link": "https://onlinelibrary.wiley.com/doi/abs/10.1111/cpr.13430",
+        "snippet": "\u2026 , we used the pySCENIC package (release 0.11.2) to perform \u2026 For cell type annotation of chromatin accessibility data, we \u2026 understanding of the developmental biology of skeletal muscle. \u2026",
+        "publication_info": {
+            "summary": "C Cai, P Wan, H Wang, X Cai, J Wang, Z Chai\u2026 - Cell \u2026, 2023 - Wiley Online Library",
+            "authors": [
+                {
+                    "name": "C Cai"
+                },
+                {
+                    "name": "P Wan"
+                },
+                {
+                    "name": "H Wang"
+                },
+                {
+                    "name": "X Cai"
+                },
+                {
+                    "name": "J Wang"
+                },
+                {
+                    "name": "Z Chai"
+                }
+            ]
+        },
+        "resources": [
+            {
+                "title": "wiley.com",
+                "file_format": "PDF",
+                "link": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/cpr.13430"
+            }
+        ],
+        "inline_links": {
+            "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=AgG2uUh33yUJ",
+            "cited_by": {
+                "total": 30,
+                "link": "https://scholar.google.com/scholar?cites=2729031053446873346&as_sdt=2005&sciodt=0,5&hl=en&num=5",
+                "cites_id": "2729031053446873346",
+                "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=2005&cites=2729031053446873346&engine=google_scholar&hl=en&num=5"
+            },
+            "related_pages_link": "https://scholar.google.com/scholar?q=related:AgG2uUh33yUJ:scholar.google.com/&scioq=pySCENIC+%22chromatin+accessibility%22+%22developmental+biology%22&hl=en&num=5&as_sdt=0,5",
+            "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C5&engine=google_scholar&hl=en&num=5&q=related%3AAgG2uUh33yUJ%3Ascholar.google.com%2F",
+            "versions": {
+                "total": 7,
+                "link": "https://scholar.google.com/scholar?cluster=2729031053446873346&hl=en&num=5&as_sdt=0,5",
+                "cluster_id": "2729031053446873346",
+                "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C5&cluster=2729031053446873346&engine=google_scholar&hl=en&num=5"
+            }
+        }
+    }
+]

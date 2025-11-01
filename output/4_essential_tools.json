@@ -1,0 +1,44 @@
+{
+    "tools": [
+        {
+            "name": "Cell Ranger",
+            "type_of_tool": "software",
+            "function": "Single-cell ATAC-seq data processing: peak calling and generation of a peak x cell matrix\n\nThis task involves processing single-cell ATAC-seq data, starting with aligning reads, filtering, and generating a peak x cell matrix. The task uses software tools like Cell Ranger for initial steps, followed by ArchR for quality control, peak calling, and matrix creation. The goal is to identify regions of open chromatin in each cell."
+        },
+        {
+            "name": "ArchR",
+            "type_of_tool": "software",
+            "function": "Single-cell ATAC-seq data processing: peak calling and generation of a peak x cell matrix\n\nThis task involves processing single-cell ATAC-seq data, starting with aligning reads, filtering, and generating a peak x cell matrix. The task uses software tools like Cell Ranger for initial steps, followed by ArchR for quality control, peak calling, and matrix creation. The goal is to identify regions of open chromatin in each cell."
+        },
+        {
+            "name": "Seurat",
+            "type_of_tool": "software",
+            "function": "Single-cell RNA-seq and ATAC-seq data processing and quality control with Seurat and ArchR\n\nThis task involves processing single-cell RNA sequencing (scRNA-seq) and single-cell ATAC sequencing (scATAC-seq) data to ensure data quality. This includes filtering cells based on mitochondrial content, ribosomal gene content, and number of unique genes (scRNA-seq) and identifying doublets.  The remaining cells are normalized and clustered to identify various cell populations. Pseudotime trajectory analysis is performed to assess changes in gene expression across a time course.  The goal is to identify potential non-transcriptional regulation."
+        },
+        {
+            "name": "Epiregulon",
+            "type_of_tool": "software",
+            "function": "Construction of Gene Regulatory Networks (GRNs) using Epiregulon: inferring TF activity from paired scATAC-seq and scRNA-seq data\n\nThis is the core task of the paper, where GRNs are constructed. This involves using the paired RNA-seq and ATAC-seq data to infer the activity of transcriptional factors (TFs). The method utilizes the co-occurrence of TF mRNA expression and chromatin accessibility at TF binding sites to predict TF activity."
+        },
+        {
+            "name": "MACS2",
+            "type_of_tool": "software",
+            "function": "ATAC-seq Peak Calling and Peak Annotation with ArchR\n\nThis involves processing scATAC-seq data using ArchR. The pipeline includes doublet analysis, latent semantic indexing, clustering, and gene scoring, integration of the scATAC-seq data with the associated scRNA-seq data and peak calling. Peak accessibility correlated with gene expression are assessed."
+        },
+        {
+            "name": "Monocle 3",
+            "type_of_tool": "software",
+            "function": "Pseudotime Trajectory Analysis with Monocle 3\n\nConstructing pseudotime trajectories from matched scRNA-seq and scATAC-seq data to analyze gene expression and chromatin accessibility changes over time. This includes defining the pseudotime, and smoothing scATAC-seq accessibility scores."
+        },
+        {
+            "name": "chromVAR cisBP database",
+            "type_of_tool": "database",
+            "function": "Transcription Factor Motif Analysis and Scoring with GenomicRanges package\n\nThe task involves scoring transcription factors in relation to open chromatin regions using the ArchR-provided summit scores with the GenomicRanges package. The overall goal is to rank the transcription factors in a given peak."
+        },
+        {
+            "name": "GenomicRanges package",
+            "type_of_tool": "software",
+            "function": "Transcription Factor Motif Analysis and Scoring with GenomicRanges package\n\nThe task involves scoring transcription factors in relation to open chromatin regions using the ArchR-provided summit scores with the GenomicRanges package. The overall goal is to rank the transcription factors in a given peak."
+        }
+    ]
+}

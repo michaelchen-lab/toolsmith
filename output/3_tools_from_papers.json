@@ -1,0 +1,137 @@
+[
+    {
+        "tasks": [
+            {
+                "Name": "Single-cell ATAC-seq data processing with ArchR: peak calling and generation of a peak x cell matrix",
+                "Description": "This task involves processing single-cell ATAC-seq data, starting with aligning reads, filtering, and generating a peak x cell matrix. The task uses software tools like Cell Ranger for initial steps (although not explicitly mentioned in the OCR), followed by ArchR for quality control, peak calling, and matrix creation. The goal is to identify regions of open chromatin in each cell, which is critical for downstream gene regulatory network (GRN) analysis.",
+                "Databases": [],
+                "Specialized_Tools": [],
+                "Software_Packages": [
+                    "Cell Ranger",
+                    "ArchR",
+                    "Seurat"
+                ]
+            },
+            {
+                "Name": "Single-cell RNA-seq data processing: quality control, normalization, and generation of gene expression matrix",
+                "Description": "This involves processing single-cell RNA-seq data to produce a gene expression matrix. It includes steps like read alignment (though not mentioned), quality control, filtering of low-quality cells, normalization of gene expression counts (e.g. using LSI), and generation of a gene expression matrix that can be paired with the peak x cell matrix from the ATAC-seq data. Software packages utilized are not explicitly mentioned in the text but are common for RNA-seq data.",
+                "Databases": [],
+                "Specialized_Tools": [],
+                "Software_Packages": [
+                    "Cell Ranger",
+                    "Seurat"
+                ]
+            },
+            {
+                "Name": "Integration of single-cell ATAC-seq and RNA-seq data using LSI: Dimensionality Reduction and Clustering",
+                "Description": "This task concerns the alignment of single-cell ATAC-seq and RNA-seq data, which involves dimensionality reduction using iterative latent semantic indexing (LSI), followed by clustering of the integrated data. This task creates connections between the two data types, facilitating the identification of regulatory relationships. The clustering step is essential for defining cell states and contexts for downstream GRN analysis.",
+                "Databases": [],
+                "Specialized_Tools": [],
+                "Software_Packages": [
+                    "ArchR",
+                    "Seurat"
+                ]
+            },
+            {
+                "Name": "Construction of Gene Regulatory Networks (GRNs) using Epiregulon: inferring TF activity from paired scATAC-seq and scRNA-seq data",
+                "Description": "This is the core task of the paper, where GRNs are constructed using the Epiregulon method. This involves using the paired RNA-seq and ATAC-seq data to infer the activity of transcriptional factors (TFs). The method utilizes the co-occurrence of TF mRNA expression and chromatin accessibility at TF binding sites to predict TF activity, construct weighted networks, and estimate the impact of regulatory elements on target genes.",
+                "Databases": [],
+                "Specialized_Tools": [],
+                "Software_Packages": [
+                    "Epiregulon"
+                ]
+            },
+            {
+                "Name": "ChIP-seq data analysis: Identifying TF binding sites",
+                "Description": "This task focuses on the analysis of ChIP-seq data to identify TF binding sites within accessible chromatin regions. Tasks include aligning reads, peak calling (identification of genomic regions enriched with a specific TF),  filtering, and merging peaks from multiple replicates; the identified binding sites are subsequently used in conjunction with the scATAC-seq data for GRN construction and analysis. ",
+                "Databases": [],
+                "Specialized_Tools": [],
+                "Software_Packages": [
+                    "DiffBind",
+                    "Deeptools"
+                ]
+            },
+            {
+                "Name": "Differential analysis of TF activity: Identifying Differentially Active TFs between Conditions (e.g., Drug Treatment)",
+                "Description": "This task employs Epiregulon or similar methods to compare TF activities across different conditions (e.g., drug treatment vs. control). Using the activity estimates for each TF from Epiregulon, differential activity analysis is performed to identify TFs showing significant changes in activity between conditions, either by comparing the total activity or looking at the network topology.",
+                "Databases": [],
+                "Specialized_Tools": [],
+                "Software_Packages": [
+                    "scran"
+                ]
+            },
+            {
+                "Name": "Motif enrichment analysis",
+                "Description": "This task involves using  Deep Neural Networks (DNNs and other computational tools) to assess the significance of sequence motifs near genomic regions defined by scATAC-seq.",
+                "Databases": [],
+                "Specialized_Tools": [],
+                "Software_Packages": [
+                    "Basenji",
+                    "ChromBPnet"
+                ]
+            }
+        ]
+    },
+    {
+        "tasks": [
+            {
+                "Name": "Single-cell RNA-seq and ATAC-seq data pre-processing and quality control with Seurat and ArchR",
+                "Description": "This task involves processing single-cell RNA sequencing (scRNA-seq) and single-cell ATAC sequencing (scATAC-seq) data to ensure data quality. This includes filtering cells based on mitochondrial content, ribosomal gene content, and number of unique genes (scRNA-seq) and identifying doublets.  The remaining cells are normalized and clustered to identify various cell populations. Pseudotime trajectory analysis is performed to assess changes in gene expression across a time course.  The goal is to identify potential non-transcriptional regulation.",
+                "Databases": [],
+                "Specialized_Tools": [],
+                "Software_Packages": [
+                    "Seurat",
+                    "ArchR",
+                    "CellRanger",
+                    "BWA-MEM",
+                    "mgcv package",
+                    "Monocle 3",
+                    "MACS2",
+                    "chromVAR cisBP database"
+                ]
+            },
+            {
+                "Name": "Differential Gene Expression Analysis with Seurat",
+                "Description": "This task involves identifying differentially expressed genes across different cell clusters and along pseudotime trajectories.  The Seurat package with FindVariableFeatures is used to identify highly variable genes, necessary for clustering and downstream analyses. The Leiden algorithm are often used for clustering and the mgcv package is used for generating pseudotime curves. Gene upregulation is determined by peaks in the second derivative of the fitted curve.",
+                "Databases": [],
+                "Specialized_Tools": [],
+                "Software_Packages": [
+                    "Seurat",
+                    "mgcv package"
+                ]
+            },
+            {
+                "Name": "ATAC-seq Peak Calling and Peak Annotation with ArchR",
+                "Description": "This involves processing scATAC-seq data using ArchR. The pipeline includes doublet analysis with addDoubletScores, latent semantic indexing, clustering with Seurat::FindClusters, and gene scoring with addGeneScoreMatrix, integration of the scATAC-seq data with the associated scRNA-seq data using addGeneIntegrationMatrix is another key step, and peak calling with MACS2. Peak accessibility correlated with gene expression are assessed using addPeak2GeneLinks.",
+                "Databases": [],
+                "Specialized_Tools": [],
+                "Software_Packages": [
+                    "ArchR",
+                    "Seurat",
+                    "MACS2",
+                    "GenomicRanges package"
+                ]
+            },
+            {
+                "Name": "Pseudotime Trajectory Analysis with Monocle 3",
+                "Description": "Constructing pseudotime trajectories from matched scRNA-seq and scATAC-seq data to analyze gene expression and chromatin accessibility changes over time. This includes defining the pseudotime, and smoothing scATAC-seq accessibility scores",
+                "Databases": [],
+                "Specialized_Tools": [],
+                "Software_Packages": [
+                    "Monocle 3"
+                ]
+            },
+            {
+                "Name": "Transcription Factor Motif Analysis and Scoring with GenomicRanges package",
+                "Description": "The task involves scoring transcription factors in relation to open chromatin regions using the ArchR-provided summit scores with the GenomicRanges package. The overall goal is to rank the transcription factors in a given peak.",
+                "Databases": [
+                    "chromVAR cisBP database"
+                ],
+                "Specialized_Tools": [],
+                "Software_Packages": [
+                    "GenomicRanges package"
+                ]
+            }
+        ]
+    }
+]
