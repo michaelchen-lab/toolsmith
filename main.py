@@ -245,14 +245,15 @@ if __name__ == "__main__":
     parser.add_argument('--papers-per-query', type=int, default=5, help="The number of papers to fetch for each query (default: 5).")
     parser.add_argument('--no-search', dest='get_new_search_results', action='store_false', help="Flag to disable new search (uses cached results if available).")
     parser.add_argument('--no-save', dest='save_papers_locally', action='store_false', help="Flag to disable saving papers to the local disk.")
+    parser.add_argument('--query', type=str, default="Task: Gene regulatory network (GRN) analysis with pySCENIC + snATAC\nGoal: Map transcription factor (TF) circuits that drive skeletal development across anatomical regions and developmental stages.")
     args = parser.parse_args()
     GET_NEW_SEARCH_RESULTS=args.get_new_search_results
     NO_OF_QUERIES=args.num_queries
     PAPERS_PER_QUERY=args.papers_per_query
     SAVE_PAPERS_LOCALLY=args.save_papers_locally
+    print(args.query)
+    assert False
 
-    user_query = "Task: Gene regulatory network (GRN) analysis with pySCENIC + snATAC\nGoal: Map transcription factor (TF) circuits that drive skeletal development across anatomical regions and developmental stages."
-    
-    main(user_query)
+    main(args.query)
     # print(check_pdf_content('downloads/q4oX0LU-i1wJ_integrative-single-cell-rna-seq-and-atac-seq-identifies-transcriptional-and-epigenetic-blueprint-guiding-osteoclastogenic-trajectory.pdf'))
     # print(check_pdf_content('downloads/6_FB5prrs88J_biomni-a-general-purpose-biomedical-ai-agent.pdf'))
