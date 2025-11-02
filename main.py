@@ -239,20 +239,18 @@ def main(user_query):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
-        description="A script to search for and process papers."
+        description="An AI agent for curating MCP tools for scientific AI agents"
     )
     parser.add_argument('--num-queries', type=int, default=3, help="The total number of queries to run (default: 3).")
     parser.add_argument('--papers-per-query', type=int, default=5, help="The number of papers to fetch for each query (default: 5).")
     parser.add_argument('--no-search', dest='get_new_search_results', action='store_false', help="Flag to disable new search (uses cached results if available).")
-    parser.add_argument('--no-save', dest='save_papers_locally', action='store_false', help="Flag to disable saving papers to the local disk.")
     parser.add_argument('--query', type=str, default="Task: Gene regulatory network (GRN) analysis with pySCENIC + snATAC\nGoal: Map transcription factor (TF) circuits that drive skeletal development across anatomical regions and developmental stages.")
+    parser.add_argument('--no-save', dest='save_papers_locally', action='store_false', help="Flag to disable saving papers to the local disk.")
     args = parser.parse_args()
     GET_NEW_SEARCH_RESULTS=args.get_new_search_results
     NO_OF_QUERIES=args.num_queries
     PAPERS_PER_QUERY=args.papers_per_query
     SAVE_PAPERS_LOCALLY=args.save_papers_locally
-    print(args.query)
-    assert False
 
     main(args.query)
     # print(check_pdf_content('downloads/q4oX0LU-i1wJ_integrative-single-cell-rna-seq-and-atac-seq-identifies-transcriptional-and-epigenetic-blueprint-guiding-osteoclastogenic-trajectory.pdf'))
